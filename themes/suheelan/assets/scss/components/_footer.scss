@@ -76,6 +76,7 @@
              .practices {
                 display: grid;
                 grid-template-columns: 1fr;
+                gap: var(--spacing-2);
 
                 @include for-tablet-landscape-up {
                     grid-template-columns: 1fr 1fr;

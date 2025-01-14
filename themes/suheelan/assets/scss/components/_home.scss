@@ -294,12 +294,12 @@ h4 .icon {
             margin: 0 20px auto 40px;
     
             @include for-tablet-portrait-up {
-                margin: 220px 0 220px 0;
+                margin: 220px auto;
                 // width: 60%;
             }
     
             @include for-tablet-landscape-up {
-                margin: 220px 80px 220px 80px;
+                margin: 220px 80px;
                 // width: 35%;
             }
         }
@@ -309,7 +309,6 @@ h4 .icon {
         background: $white-off url('/imgs/scrubs1.jpg') no-repeat center top;
         background-size: cover;
         min-height: 300px;
-        
     }
 }
 
@@ -334,6 +333,16 @@ h4 .icon {
         background: $white-off url('/imgs/vidar-nordli-mathisen-AvnXCFX25GA-unsplash.jpg') no-repeat center top;
         background-size: cover;
         min-height: 300px;
+
+        @include for-tablet-portrait-up {
+            background: $white-off url('/imgs/vidar-nordli-mathisen-AvnXCFX25GA-unsplash.jpg') no-repeat -760px top;
+            background-size: cover;
+        }
+        
+        @include for-tablet-landscape-up {
+            background: $white-off url('/imgs/vidar-nordli-mathisen-AvnXCFX25GA-unsplash.jpg') no-repeat center top;
+            background-size: cover;
+        }
     }
 
     >div:last-child {
@@ -347,26 +356,16 @@ h4 .icon {
             margin: 0 20px auto 40px;
 
             @include for-tablet-portrait-up {
-                margin: 220px 0 220px 0;
+                margin: 220px auto;
                 // width: 60%;
             }
 
             @include for-tablet-landscape-up {
-                margin: 220px 80px 220px 80px;
+                margin: 220px 80px;
                 // width: 35%;
             }
         }
     }
-
-    @include for-tablet-portrait-up {
-        background: url('/imgs/vidar-nordli-mathisen-AvnXCFX25GA-unsplash.jpg') no-repeat center -200px;
-        background-size: cover;
-        padding: var(--spacing-6) var(--spacing-2);
-    }
-
-    // @include for-desktop-up {
-    //     background: url('/imgs/spencer-watson-eo3tBGMR9yY-unsplash.jpg') no-repeat center -100px;
-    // }
 }
 
 .working-with {
