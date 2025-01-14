@@ -16,14 +16,14 @@
         background-repeat: no-repeat;
         // background-color: $hero-bg;
         background-size: cover;
-        @include for-phone-only {
-            order: 2;
-        }
+        order: 2;
+        
         @include for-tablet-portrait-up {
             background-position: center -80px;
         }
         @include for-tablet-landscape-up {
             background-position: center center;
+            order: 1;
         }
     }
 
@@ -32,9 +32,10 @@
         grid-template-columns: 1fr;
         align-items: center;
         
-        @include for-phone-only {
-            min-height: 100vh;
-            order: 1;
+        min-height: 100vh;
+        order: 1;
+        
+        @include for-tablet-portrait-up {
         }
 
         >div {
