@@ -35,9 +35,11 @@
                 font-size: 48px;
                 padding-top: 25px;
                 color: $hero-color;
+                text-align: center;
 
                 @include for-tablet-portrait-up {
                     font-size: 88px;
+                    text-align: left;
                 }
 
                 @include for-tablet-landscape-up {
@@ -54,9 +56,11 @@
                 padding-left: 1px;
                 font-size: 15px;
                 color: $cred-line;
+                text-align: center;
             
                 @include for-tablet-portrait-up {
                     font-size: 17.1px;
+                    text-align: left;
                 }
             }
 
@@ -77,9 +81,14 @@
 
             .icon {
                 text-align: center;
+                padding-top: 40px;
+
                 img {
                     width: auto;
-                    max-width: 200px;
+                    max-width: 100px;
+                    @include for-tablet-landscape-up {
+                        max-width: 200px;
+                    }
                 }
             }
         }

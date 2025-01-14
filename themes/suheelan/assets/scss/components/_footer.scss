@@ -89,22 +89,35 @@
          background: $page-footer-banner;
          color: $page-footer-banner-color;
 
-        a:hover {
-            color: $green-dark;
-        }
+        
+        .socials {
 
-        .rg {
+            font-size: 32px !important;
+            text-align: center;
             
-            img {
-                border-radius: 2px;
-                background: $green;
-                width: 25px;
-                margin-bottom: 3px;
-                margin-left: 3px;
+            @include for-tablet-portrait-up {
+                text-align: right;
+            }
+
+            a:hover {
+                color: $green-dark;
+            }
+            .rg {
                 
-                &:hover {
-                    background: $green-dark;
+                img {
+                    border-radius: 2px;
+                    background: $green;
+                    width: 25px;
+                    margin-bottom: 3px;
+                    margin-left: 3px;
+                    
+                    &:hover {
+                        background: $green-dark;
+                    }
                 }
+            }
+            .cw {
+                
             }
         }
      }
