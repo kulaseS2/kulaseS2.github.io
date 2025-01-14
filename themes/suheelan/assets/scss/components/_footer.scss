@@ -96,7 +96,7 @@
             text-align: center;
             
             @include for-tablet-portrait-up {
-                text-align: right;
+                text-align: left;
             }
 
             a:hover {
