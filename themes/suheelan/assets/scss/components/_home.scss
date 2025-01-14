@@ -286,6 +286,9 @@ h4 .icon {
     >div:first-child {
         background-color: $blockquote-bg;
         padding: 100px 0;
+        @include for-phone-only {
+            order:2
+        }
     
         blockquote {
             margin: 0 20px auto 40px;

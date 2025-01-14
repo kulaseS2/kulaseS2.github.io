@@ -16,6 +16,9 @@
         background-repeat: no-repeat;
         // background-color: $hero-bg;
         background-size: cover;
+        @include for-phone-only {
+            order: 2;
+        }
         @include for-tablet-portrait-up {
             background-position: center -80px;
         }
@@ -28,6 +31,11 @@
         display: grid;
         grid-template-columns: 1fr;
         align-items: center;
+        
+        @include for-phone-only {
+            min-height: 100vh;
+            order: 1;
+        }
 
         >div {
             color: $hero-supporting-text-color;
@@ -39,7 +47,6 @@
             @include for-tablet-landscape-up {
                 padding-left: 100px;
                 padding-right: 100px;
-
                 padding-left: 40px;
                 padding-right: 40px;
             }
