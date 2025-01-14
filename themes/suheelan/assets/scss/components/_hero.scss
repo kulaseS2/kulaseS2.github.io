@@ -33,12 +33,15 @@
             color: $hero-supporting-text-color;
             max-width: 510px;
             margin: 0 auto;
-            padding-left: 40px;
-            padding-right: 40px;
+            padding-left: 20px;
+            padding-right: 20px;
 
             @include for-tablet-landscape-up {
                 padding-left: 100px;
                 padding-right: 100px;
+
+                padding-left: 40px;
+                padding-right: 40px;
             }
 
             h1 {
