@@ -74,6 +74,13 @@
              }
 
              .practices {
+                display: grid;
+                grid-template-columns: 1fr;
+
+                @include for-tablet-landscape-up {
+                    grid-template-columns: 1fr 1fr;
+                }
+
                 h5 {
                     @include for-tablet-portrait-up {
                         min-height: 60px;
@@ -110,14 +117,19 @@
                     width: 25px;
                     margin-bottom: 3px;
                     margin-left: 3px;
-                    
+
                     &:hover {
                         background: $green-dark;
                     }
                 }
             }
             .cw {
-                
+                @include for-phone-only {
+                    font-size: 12px;
+                }
+                @include for-tablet-portrait-up {
+                    text-align: right;
+                }
             }
         }
      }

@@ -276,6 +276,10 @@ h4 .icon {
     grid-template-columns: 1fr;
 
     @include for-tablet-portrait-up {
+        grid-template-columns: 1fr 50%;
+    }
+
+    @include for-tablet-landscape-up {
         grid-template-columns: 40% 1fr;
     }
 
@@ -315,6 +319,10 @@ h4 .icon {
     grid-template-columns: 1fr;
 
     @include for-tablet-portrait-up {
+        grid-template-columns: 1fr 50%;
+    }
+
+    @include for-tablet-landscape-up {
         grid-template-columns: 1fr 40%;
     }
 
