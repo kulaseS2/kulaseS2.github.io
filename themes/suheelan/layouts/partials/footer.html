@@ -1,0 +1,133 @@
+<footer>
+    <div class="item-center container pb-8">
+
+        <div class="footer-grid">
+            <div>
+                <h2 id="contact" class="mb-6">Contact</h2>
+            
+                <!-- <div class="x-large follow">
+                                {{ with .Site.Menus.social}}
+                                    {{ range sort . }}
+                                        {{  if .URL }}
+                                            <a href="{{ .URL | absLangURL }}" target="_blank"><i class="{{ .Name }}"></i></a>
+                                        {{ end }}
+                                    {{ end }}
+                                {{ end }}
+                            </div> -->
+            
+                <div class="mb-4">
+                    <div>
+                        <div class="grid two force middle gap2 mb-2" style="--columns: auto 1fr">
+                            <div class="blue-darker x-large"><i class="lni lni-calendar-days"></i></div>
+                            <div>Mon - Fri, 7:30am - 7:00pm weekdays
+                                <br/><small>Urgent, after hour and weekend consultation by appointment</small></div>
+                        </div>
+            
+                        <div class="grid two force middle gap2 mb-2" style="--columns: auto 1fr">
+                            <div class="blue-darker x-large"><i class="lni lni-phone"></i></div>
+                            <div>
+                                <a href="tel:+6492004849">+64 (09) 200 4849</a>
+                            </div>
+                        </div>
+            
+                        <div class="grid two force middle gap2 mb-5" style="--columns: auto 1fr">
+                            <div class="blue-darker x-large"><i class="lni lni-hand-taking-user"></i></div>
+                            <div>
+                                Please forward referrals to EDI: sp2jy57a or email <a href="info@aklsurgical.co.nz">info@aklsurgical.co.nz</a>
+                            </div>
+                        </div>
+
+                        <div class="grid two force middle gap2 mb-5" style="--columns: auto 1fr">
+                            <div class="blue-darker x-large"><i class="lni lni-bell-1"></i></div>
+                            <div>
+                                No referral needed, simply call us or fill in the form below to make an Appointment.
+                            </div>
+                        </div>
+
+                        <div class="animated fadeIn border-top-gold pt-5" id="contact-form" >
+                            <form id="contactform" action="https://staticcontact.com/send/fc8592e7-57d8-4e3c-9611-c00db1724024" method="post">
+                        
+                                <div class="grid two mb-1">
+                                    <div>
+                                        <label for="name">Name <span class="red">*</span></label>
+                                        <input type="text" name="name" required />
+                                    </div>
+                                    <div>
+                                        <label for="name">Email <span class="red">*</span></label>
+                                        <input type="text" name="email" required />
+                                    </div>
+                                </div>
+                        
+                                <label for="message">Message <span class="red">*</span></label>
+                                <textarea name="message" class="mb-2" rows="8" required></textarea>
+                        
+                                <button type="submit" class="btn">Submit <i class="lni lni-arrow-right"></i></button>
+                                <script src="https://staticcontact.com/js/static_contact_botbuster.js"></script>
+                            </form>
+                        </div>
+            
+                    </div>
+                </div>
+            </div>
+            <div>
+                <h2 id="contact" class="mb-6">Practices</h2>
+                <div class="grid two gap4 col-gap mb-2 practices" style="--columns: 1fr 1fr">
+
+                    <div>
+                        <h5 class="mb-1">Surgical Weight Loss Solutions and Auckland Surgical Associates</h5>
+                        <div class="mb-2">
+                            <a href="https://www.surgicalweightsolutions.co.nz/" target="_blank">View website <i
+                                    class="lni lni-arrow-angular-top-right"></i></a>
+                        </div>
+                        <div class="map_wrapper mb-4">
+                            <div class="map">
+                                <iframe width="100%" height="100%" style="border:0" loading="lazy" allowfullscreen
+                                    referrerpolicy="no-referrer-when-downgrade"
+                                    src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCkfWWJRx_OrE5FbK-kcK6sTwHLD93LKfs&zoom=15&q=14/326+Sunset+Road+Windsor+Park+Auckland+New+Zealand+0632">
+                                </iframe>
+                            </div>
+                        </div>
+                        
+                        
+                    </div>
+
+                    <div>
+                        <h5 class="mb-1">The Doctors (New Lynn)</h5>
+                        <div class="mb-2">
+                            <a href="https://thedoctors.co.nz/the-doctors-new-lynn" target="_blank">View website <i
+                                    class="lni lni-arrow-angular-top-right"></i></a>
+                        </div>
+                        <div class="map_wrapper mb-4">
+                            <div class="map">
+                                <iframe width="100%" height="100%" style="border:0" loading="lazy" allowfullscreen
+                                    referrerpolicy="no-referrer-when-downgrade"
+                                    src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCkfWWJRx_OrE5FbK-kcK6sTwHLD93LKfs&zoom=15&q=19+Delta+Avenue+New+Lynn+West+Auckland+0600">
+                                </iframe>
+                            </div>
+                        </div>
+
+                        
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+<div class="copyright">
+
+    <div class="grid two middle container py-1">
+        <div><a href="https://www.facebook.com/SuheelanKulasegaranSurgeon" target="_blank" class="xx-large green" title="Facebook"><i
+                    class="lni lni-facebook-square"></i></a>
+            <a href="https://www.instagram.com/drsuheelan/profilecard/?igsh=aXc1MWwxenRwamIw" target="_blank" class="xx-large green" title="Instagram"><i
+                    class="lni lni-instagram"></i></a>
+            <a href="https://www.researchgate.net/profile/Suheelan-Kulasegaran" target="_blank" class="rg"><img src="imgs/RG_Logo.png" alt="RG" title="ResearchGate" /></a>
+        </div>
+        <div class="align-right  small p-2">
+            &copy; {{ now.Format "2006"}} {{ .Site.Params.legal_title }}. All rights reserved.
+        </div>
+    </div>
+
+</div>

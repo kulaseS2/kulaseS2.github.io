@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&family=Italiana&display=swap');
+$font-title: 'Italiana', serif; // Antic Didone
+$font-body: 'Work Sans', sans-serif;
+$font-logo: 'Italiana', serif;
+
+$black: #11151F;
+$white: #FFFDFD;
+$white-off: #F8F4F9;
+
+$grey-1: #dcdde2;
+$grey-2: #dddee3;
+$grey-3: #70798C;
+$grey-4: #706C61;
+$grey-5: #2D3142;
+
+$gold: #E1A13F;
+$yellow: #E28413;
+$orange: #F46036;
+$orange-dark: #D7263D;
+$red: #D33F49; // D33F49 | CE4257
+$red-dark: #832232;
+$pink: #F7B2B7; // E5625E
+$purple: #88498F;
+$blue-darker: #022050;
+$blue-dark: #0267C1; // #758BFD
+$blue: #80ADA0; // #80ADA0 | 58A4B0
+$aqua: #70F8BA;
+$mint: #8AEA92;
+$green: #8CD867;
+$green-dark: #028090; // 1D7874
+$beige: #8E4A49;
+$brown: #854D27;
+
+// Link states
+$link: $orange;
+$hover: $red;
+
+$link-light: $blue;
+$link-light-hover: $blue-dark;
+
+$button-primary: $link;
+$button-primary-hover: $hover;
+
+// header
+$page-header-bg: $white;
+$page-header-color: $black;
+$page-header-link-color: $yellow;
+$page-header-link-hover-color: $white;
+$page-header-btn-link-color: $yellow;
+$page-header-btn-link-hover-color: $orange;
+
+// page colours
+$body-bg: $white;
+$body-color: $black;
+$bg-page-section: $black;
+
+// Hero
+$hero-bg: $white;
+$hero-color: $gold;
+$hero-icon: $gold;
+$icon-big: $gold;
+
+// blockquote
+$blockquote-bg: $pink;
+$blockquote-color: $black;
+
+// blocks
+$block-bg: $white-off;
+$block-color: $black;
+
+$block-alt-bg: $black;
+$block-alt-color: $white;
+
+// footer
+$page-footer-bg: $black;
+$page-footer-color: $white;
+$page-footer-link-color: $orange;
+$page-footer-link-hover-color: $red;
+
+$page-footer-banner: $black;
+$page-footer-banner-color: $white;
+
+// overrides
+h1, h2 {
+    color: $gold;
+}
+
+h3, h4, h5, h6 {
+    font-family: $font-body !important;
+}
