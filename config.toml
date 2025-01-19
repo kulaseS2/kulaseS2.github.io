@@ -3,7 +3,7 @@ languageCode = 'en-us'
 title = 'Dr Suheelan Kulasegaran'
 theme = "suheelan"
 
-paginate = 20
+pagination.pagerSize = 20
 
 [params]
     legal_title = "Dr Suheelan Kulasegaran"
