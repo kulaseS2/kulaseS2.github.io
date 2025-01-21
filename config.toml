@@ -28,7 +28,7 @@ pagination.pagerSize = 20
     info = "Upper Gastrointestinal, Bariatric, Laparoscopic Surgeon, General Surgeon and Endoscopist"
 
     # analytics
-    google_analitycs_id = ''
+    google_analitycs_id = 'G-D559LFMRXK'
     
 [taxonomies]
     category = "categories"
