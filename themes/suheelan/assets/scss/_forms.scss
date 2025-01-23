@@ -50,6 +50,7 @@ textarea {
     margin-bottom: 10px;
     width: 100%;
     background-color: $grey-1;
+    resize: vertical;
 }
 
 input[type="checkbox"],
