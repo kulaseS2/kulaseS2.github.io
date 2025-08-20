@@ -46,10 +46,6 @@
 
 .xx-large {
     font-size: xx-large;
-
-    @include for-phone-only {
-        font-size: large;
-    }
 }
 
 .x-large {
@@ -189,6 +185,7 @@ button .icon {
     width: 14px;
     height: 14px;
 }
+
 // Rotations
 .text-rotate-180 {
     rotate: 180deg;
